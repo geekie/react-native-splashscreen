@@ -36,18 +36,6 @@ public class SplashScreen {
             @Override
             public void run() {
                 if (splashDialog != null && splashDialog.isShowing()) {
-                    // AlphaAnimation fadeOut = new AlphaAnimation(1, 0);
-                    // fadeOut.setDuration(1000);
-                    // View view = ((ViewGroup)splashDialog.getWindow().getDecorView()).getChildAt(0);
-                    // view.startAnimation(fadeOut);
-                    // fadeOut.setAnimationListener(new Animation.AnimationListener() {
-                    //     @Override
-                    //     public void onAnimationEnd(Animation animation) {
-                    //         splashDialog.dismiss();
-                    //         splashDialog = null;
-                    //     }
-                    // });
-
                     splashDialog.dismiss();
                     splashDialog = null;
                 }
